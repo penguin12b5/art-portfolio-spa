@@ -1,4 +1,4 @@
-# Oliver Tong — Art Portfolio
+# Art Portfolio Single Page Application
 
 A modern, visually stunning single-page web application showcased as a creative portfolio of artworks from middle and high school years (2022-2026). This project features a curated collection of paintings, drawings, digital art, printmaking, and architectural designs.
 
