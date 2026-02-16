@@ -367,6 +367,17 @@ let currentFilter = 'all';
 let currentLightboxIndex = -1;
 let filteredArtworks = [...artworks];
 
+// ---------- Analytics helper (safe wrapper around gtag) ----------
+function sendGtagEvent(eventName, params = {}) {
+  if (typeof gtag === 'function') {
+    try {
+      gtag('event', eventName, params);
+    } catch (err) {
+      console.warn('gtag event failed', err);
+    }
+  }
+}
+
 // ---------- Render Gallery Cards ----------
 function renderGallery(filter = 'all') {
   currentFilter = filter;
@@ -396,7 +407,14 @@ function renderGallery(filter = 'all') {
         </svg>
       </div>
     `;
-    card.addEventListener('click', () => openLightbox(index));
+    card.addEventListener('click', () => {
+      openLightbox(index);
+      sendGtagEvent('artwork_open', {
+        artwork_id: artwork.id,
+        artwork_title: artwork.title,
+        category: artwork.category,
+      });
+    });
     galleryGrid.appendChild(card);
   });
 
@@ -435,6 +453,7 @@ filterBar.addEventListener('click', (e) => {
   btn.classList.add('active');
 
   renderGallery(btn.dataset.filter);
+  sendGtagEvent('filter_select', { filter: btn.dataset.filter });
 });
 
 // ---------- Lightbox ----------
@@ -516,6 +535,8 @@ if (contactForm) {
         'Accept': 'application/json'
       }
     }).then(response => {
+      // Analytics: contact form submitted successfully (no PII sent)
+      sendGtagEvent('contact_form_submit', { method: 'formspree', success: true });
       // Show success notification regardless for demo purposes
       const notification = document.createElement('div');
       notification.className = 'notification';
@@ -537,6 +558,8 @@ if (contactForm) {
         contactForm.reset();
       }, 3000);
     }).catch(error => {
+      // Analytics: contact form submit failed
+      sendGtagEvent('contact_form_submit', { method: 'formspree', success: false });
       console.error('Submission error:', error);
       alert('Oops! There was a problem sending your message.');
     });
