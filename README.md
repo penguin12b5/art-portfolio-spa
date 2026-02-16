@@ -2,6 +2,8 @@
 
 A modern, visually stunning single-page web application showcased as a creative portfolio of artworks from middle and high school years (2022-2026). This project features a curated collection of paintings, drawings, digital art, printmaking, and architectural designs.
 
+Hosted by github page: https://penguin12b5.github.io/art-portfolio-spa/#gallery
+
 ## ✨ Features
 
 - **Dynamic Gallery**: A responsive grid layout with smooth reveal animations using the Intersection Observer API.
@@ -43,7 +45,7 @@ You will need [Node.js](https://nodejs.org/) installed to run the local developm
    ```
 
 3. **Open in Browser**:
-   Navigate to `http://localhost:3000` (or the port specified).
+   Navigate to `http://localhost:8000` (or the port specified).
 
 ## 🏆 Achievements Mentioned
 
@@ -54,4 +56,30 @@ The portfolio showcases several award-winning pieces, including:
 
 ## 📝 License
 
-© 2026 Oliver Tong. All rights reserved. Artworks featured in this portfolio are the original creations of Oliver Tong.
+### Code License
+
+This project's code (HTML, CSS, JavaScript, and configuration files) is licensed under the **MIT License**. See below for terms:
+
+```
+MIT License
+
+Copyright (c) 2026 Oliver Tong
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+```
+
+### Artwork Copyright
+
+© 2026 Oliver Tong. All rights reserved. 
+
+All artworks featured in this portfolio are original creations of Oliver Tong and are protected by copyright. These artworks may be viewed and shared for personal, non-commercial purposes only. Reproduction, modification, distribution, or commercial use of any artwork without explicit written permission is strictly prohibited.
+
+For licensing inquiries regarding artwork usage or reproduction, please contact Oliver Tong.
