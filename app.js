@@ -399,7 +399,6 @@ function renderGallery(filter = 'all') {
       <div class="artwork-card__info">
         <span class="artwork-card__category">${artwork.category}</span>
         <h3 class="artwork-card__title">${artwork.title}</h3>
-        <p class="artwork-card__artist">${artwork.artist}</p>
       </div>
       <div class="artwork-card__view-icon">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -465,7 +464,6 @@ function openLightbox(index) {
   lightboxImage.alt = `${artwork.title} by ${artwork.artist}`;
   lightboxCategory.textContent = artwork.category;
   lightboxTitle.textContent = artwork.title;
-  lightboxArtist.textContent = `by ${artwork.artist}`;
   lightboxDescription.textContent = artwork.description;
   lightboxMedium.textContent = artwork.medium;
   lightboxYear.textContent = artwork.year;
@@ -489,7 +487,6 @@ function navigateLightbox(direction) {
   lightboxImage.alt = `${artwork.title} by ${artwork.artist}`;
   lightboxCategory.textContent = artwork.category;
   lightboxTitle.textContent = artwork.title;
-  lightboxArtist.textContent = `by ${artwork.artist}`;
   lightboxDescription.textContent = artwork.description;
   lightboxMedium.textContent = artwork.medium;
   lightboxYear.textContent = artwork.year;
