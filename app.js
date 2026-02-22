@@ -11,7 +11,7 @@ const artworks = [
     category: 'painting',
     medium: 'Acrylic Painting',
     year: '2024',
-    size: '20 x 16',
+    size: '16 x 14',
     image: 'images/smiling_worker.jpeg',
     description:
       'A candid portrait capturing the genuine joy and dignity of everyday work. ' +
@@ -26,7 +26,7 @@ const artworks = [
     category: 'drawing',
     medium: 'Pencil Sketch',
     year: '2024',
-    size: '20 x 16',
+    size: '22 x 16',
     image: 'images/multi_tasker.jpeg',
     description:
       'A detailed pencil drawing exploring the complexity of modern life and the art of juggling multiple responsibilities. ' +
@@ -40,7 +40,7 @@ const artworks = [
     category: 'mixed-media',
     medium: 'Mixed Media',
     year: '2024',
-    size: '20 x 16',
+    size: '12 x 10',
     image: 'images/crying_woman.jpeg',
     description:
       'An emotionally powerful piece combining various materials and techniques to express raw human emotion and vulnerability. ' +
@@ -82,7 +82,7 @@ const artworks = [
     category: 'painting',
     medium: 'Acrylic Oil Painting',
     year: '2025',
-    size: '24 x 18',
+    size: '24 x 20',
     image: 'images/man_covering_face.jpeg',
     description:
       'An evocative acrylic oil painting capturing a moment of vulnerability and introspection. ' +
@@ -95,7 +95,7 @@ const artworks = [
     category: 'drawing',
     medium: 'Colored Pencil Drawing',
     year: '2024',
-    size: '16 x 10',
+    size: '16 x 12',
     image: 'images/longing_for_the_ocean.jpeg',
     description:
       'A vivid colored pencil drawing that captures a deep yearning for the open sea. ' +
@@ -186,7 +186,7 @@ const artworks = [
     category: 'drawing',
     medium: 'Pencil Sketch',
     year: '2024',
-    size: '14 x 16',
+    size: '11 x 14',
     image: 'images/the_little_girl_and_her_mom.jpeg',
     description:
       'A tender pencil sketch capturing a quiet moment of connection between a mother and her daughter. ' +
