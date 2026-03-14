@@ -570,15 +570,15 @@ if (contactForm) {
     });
   }
 
-  // Floating Button Handler
-  const floatingBtn = document.getElementById('back-to-gallery');
-  if (floatingBtn) {
+  // Floating Actions Handler
+  const floatingActions = document.getElementById('floating-actions');
+  if (floatingActions) {
     window.addEventListener('scroll', () => {
-      // Show button after scrolling down 300px
+      // Show buttons after scrolling down 300px
       if (window.scrollY > 300) {
-        floatingBtn.classList.add('visible');
+        floatingActions.classList.add('visible');
       } else {
-        floatingBtn.classList.remove('visible');
+        floatingActions.classList.remove('visible');
       }
     });
   }
