@@ -114,9 +114,9 @@ body::after {
 }
 
 /* ============================================================
-   HERO SECTION
+   TOP SECTION
    ============================================================ */
-.hero {
+.top {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -128,7 +128,7 @@ body::after {
   z-index: 1;
 }
 
-.hero__overline {
+.top__overline {
   font-family: var(--font-body);
   font-size: 0.75rem;
   font-weight: 500;
@@ -140,7 +140,7 @@ body::after {
   animation: fadeUp 0.8s var(--ease-out) 0.2s forwards;
 }
 
-.hero__title {
+.top__title {
   font-family: var(--font-display);
   font-size: clamp(2.8rem, 7vw, 6.5rem);
   font-weight: 700;
@@ -152,12 +152,12 @@ body::after {
   animation: fadeUp 0.8s var(--ease-out) 0.4s forwards;
 }
 
-.hero__title em {
+.top__title em {
   font-style: italic;
   color: var(--accent-gold);
 }
 
-.hero__subtitle {
+.top__subtitle {
   font-size: clamp(1rem, 1.6vw, 1.2rem);
   font-weight: 300;
   color: var(--text-secondary);
@@ -168,7 +168,7 @@ body::after {
   animation: fadeUp 0.8s var(--ease-out) 0.6s forwards;
 }
 
-.hero__cta {
+.top__cta {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
@@ -185,24 +185,24 @@ body::after {
   animation: fadeUp 0.8s var(--ease-out) 0.8s forwards;
 }
 
-.hero__cta:hover {
+.top__cta:hover {
   border-color: var(--accent-gold);
   background: var(--accent-gold-glow);
   transform: translateY(-2px);
 }
 
-.hero__cta svg {
+.top__cta svg {
   width: 16px;
   height: 16px;
   transition: transform var(--transition-fast);
 }
 
-.hero__cta:hover svg {
+.top__cta:hover svg {
   transform: translateY(3px);
 }
 
 /* Decorative divider line */
-.hero__divider {
+.top__divider {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -962,9 +962,9 @@ body::after {
 }
 
 /* ============================================================
-   HERO ACTIONS
+   TOP ACTIONS
    ============================================================ */
-.hero__actions {
+.top__actions {
   display: flex;
   align-items: center;
   gap: var(--space-md);
@@ -973,7 +973,7 @@ body::after {
   animation: fadeUp 0.8s var(--ease-out) 0.8s forwards;
 }
 
-.hero__cta {
+.top__cta {
   margin-bottom: 0;
   /* Override previous margin */
   opacity: 1;
@@ -981,7 +981,7 @@ body::after {
   animation: none;
 }
 
-.hero__link {
+.top__link {
   font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 0.1em;
@@ -992,7 +992,7 @@ body::after {
   padding: var(--space-xs) var(--space-sm);
 }
 
-.hero__link:hover {
+.top__link:hover {
   color: var(--text-primary);
 }
 
