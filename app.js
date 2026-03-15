@@ -155,13 +155,13 @@ const artworks = [
   },
   {
     id: 12,
-    title: 'Village Ramen-Ya',
+    title: 'Village Ramen',
     artist: 'Oliver Tong',
     category: 'painting',
     medium: 'Acrylic Oil Painting',
     year: '2026',
     size: '16 x 12',
-    image: 'images/village_ramen_ya.jpeg',
+    image: 'images/village_ramen.jpeg',
     description:
       'A warm and inviting acrylic oil painting of a traditional village ramen shop. ' +
       'The piece captures the cozy atmosphere and glowing lights of a local eatery, reflecting on themes of community and comfort.',
@@ -455,6 +455,47 @@ filterBar.addEventListener('click', (e) => {
   sendGtagEvent('filter_select', { filter: btn.dataset.filter });
 });
 
+// ---------- Open Artwork By Title (from About links) ----------
+function openArtworkByTitle(title) {
+  // Reset filter to "all" so the artwork is visible
+  filterBar.querySelectorAll('.filter-btn').forEach((b) => b.classList.remove('active'));
+  const allBtn = filterBar.querySelector('[data-filter="all"]');
+  if (allBtn) allBtn.classList.add('active');
+  renderGallery('all');
+
+  // Find the artwork index in the (now unfiltered) list
+  const index = filteredArtworks.findIndex(
+    (a) => a.title.toLowerCase() === title.toLowerCase()
+  );
+
+  if (index === -1) return;
+
+  // Scroll to gallery, then open lightbox after a short delay
+  const gallerySection = document.getElementById('gallery');
+  if (gallerySection) {
+    gallerySection.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  setTimeout(() => openLightbox(index), 600);
+}
+
+// ---------- Filter Gallery By Category (from About links) ----------
+function filterGalleryByCategory(category) {
+  // Activate the matching filter button
+  filterBar.querySelectorAll('.filter-btn').forEach((b) => b.classList.remove('active'));
+  const targetBtn = filterBar.querySelector(`[data-filter="${category}"]`);
+  if (targetBtn) targetBtn.classList.add('active');
+  renderGallery(category);
+
+  // Scroll to gallery
+  const gallerySection = document.getElementById('gallery');
+  if (gallerySection) {
+    gallerySection.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  sendGtagEvent('filter_select', { filter: category, source: 'about_link' });
+}
+
 // ---------- Lightbox ----------
 function openLightbox(index) {
   currentLightboxIndex = index;
@@ -501,6 +542,20 @@ lightboxNext.addEventListener('click', () => navigateLightbox(1));
 const backToGalleryBtn = document.getElementById('lightbox-back');
 if (backToGalleryBtn) {
   backToGalleryBtn.addEventListener('click', closeLightbox);
+}
+
+const fullResBtn = document.getElementById('lightbox-fullres');
+if (fullResBtn) {
+  fullResBtn.addEventListener('click', () => {
+    // Open the current lightbox image in a new tab
+    if (lightboxImage && lightboxImage.src) {
+      window.open(lightboxImage.src, '_blank');
+      // Analytics: full_resolution_view
+      sendGtagEvent('full_resolution_view', {
+        artwork_src: lightboxImage.src,
+      });
+    }
+  });
 }
 
 // Keyboard navigation
@@ -584,5 +639,33 @@ if (contactForm) {
   }
 }
 
+// ---------- About Section: Scroll Reveal ----------
+function observeAboutSection() {
+  const aboutElements = document.querySelectorAll(
+    '.about-section .about-image-col, .about-section .about-intro, .about-timeline__item'
+  );
+
+  const aboutObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const siblings = [...aboutElements];
+          const idx = siblings.indexOf(el);
+          const delay = idx * 120;
+          setTimeout(() => {
+            el.classList.add('revealed');
+          }, delay);
+          aboutObserver.unobserve(el);
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+
+  aboutElements.forEach((el) => aboutObserver.observe(el));
+}
+
 // ---------- Initial Render ----------
 renderGallery();
+observeAboutSection();
