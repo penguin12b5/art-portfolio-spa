@@ -1247,7 +1247,6 @@ body::after {
   align-items: center;
   justify-content: flex-start;
   gap: 0.8rem;
-  min-width: 240px;
   width: auto;
   white-space: nowrap;
   background: var(--bg-card);
