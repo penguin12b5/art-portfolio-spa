@@ -29,6 +29,13 @@
       drawing, digital media, sculpture, and architectural design.
     </p>
     <div class="hero__actions">
+      <a href="#about" class="hero__cta" id="hero-about">
+        About Me
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+        </svg>
+      </a>
       <a href="#gallery" class="hero__cta" id="hero-cta">
         Explore Collection
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -44,6 +51,105 @@
       </a>
     </div>
     <div class="hero__divider"></div>
+  </section>
+
+  <!-- ===== ABOUT / PROFILE ===== -->
+  <section class="about-section" id="about">
+    <div class="section-header">
+      <p class="section-header__label">About the Artist</p>
+      <h2 class="section-header__title">Meet Oliver</h2>
+    </div>
+
+    <div class="about-content">
+      <!-- Profile image side -->
+      <div class="about-image-col">
+        <div class="about-image-wrapper">
+          <img src="images/artist_profile.png" alt="Oliver Tong — young artist at work" class="about-image" />
+          <div class="about-image-frame"></div>
+        </div>
+      </div>
+
+      <!-- Bio & timeline side -->
+      <div class="about-bio-col">
+        <div class="about-intro">
+          <p class="about-intro__greeting">Hi, I'm <strong>Oliver Tong</strong></p>
+          <p class="about-intro__text">
+            I'm a high school student and aspiring artist based in New York City. My passion for art ignited in early
+            childhood —
+            scribbling crayon landscapes on every available surface — and has grown into a dedicated pursuit
+            spanning painting, drawing, sculpture, printmaking, digital art, and architectural design.
+          </p>
+          <p class="about-intro__text">
+            From the first time I picked up a pencil and tried to capture the world around me, I knew art would be
+            a central part of my life. Over the years I've moved from simple sketches to award-winning works that
+            explore the human condition — joy, sorrow, resilience, and connection.
+          </p>
+        </div>
+
+        <!-- Journey timeline -->
+        <div class="about-timeline">
+          <h3 class="about-timeline__heading">My Artistic Journey</h3>
+
+          <div class="about-timeline__item" data-year="Early Years">
+            <div class="about-timeline__dot"></div>
+            <div class="about-timeline__card">
+              <span class="about-timeline__period">Childhood</span>
+              <h4>Where It All Began</h4>
+              <p>I fell in love with colors before I could even write my name. Coloring books turned into freehand
+                drawings
+                on scrap paper, napkins, and the margins of homework sheets. My parents noticed early that I could sit
+                for
+                hours completely absorbed in drawing.</p>
+            </div>
+          </div>
+
+          <div class="about-timeline__item" data-year="2022–2023">
+            <div class="about-timeline__dot"></div>
+            <div class="about-timeline__card">
+              <span class="about-timeline__period">Middle School</span>
+              <h4>Exploring New Mediums</h4>
+              <p>Middle school opened doors to sculpture, colored pencil, and poster design. I created the
+                <a href="#gallery" class="about-link" onclick="openArtworkByTitle('AI Hand'); return false;">"AI
+                  Hand"</a>
+                sculpture exploring technology and humanity, designed Constitution Day posters, and began developing
+                a personal artistic voice.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-timeline__item" data-year="2024">
+            <div class="about-timeline__dot"></div>
+            <div class="about-timeline__card">
+              <span class="about-timeline__period">Sophomore Year</span>
+              <h4>First Recognition</h4>
+              <p>My sophomore year was a turning point.
+                <a href="#gallery" class="about-link"
+                  onclick="openArtworkByTitle('The Smiling Worker'); return false;">"The Smiling Worker"</a> and
+                <a href="#gallery" class="about-link"
+                  onclick="openArtworkByTitle('The Multi-Tasker'); return false;">"The Multi-Tasker"</a> each earned a
+                <strong>Gold Key</strong> at the NYC Scholastic Art &amp; Writing Awards — my first major recognition —
+                fueling my commitment to portrait art and human storytelling.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-timeline__item" data-year="2025–Now">
+            <div class="about-timeline__dot"></div>
+            <div class="about-timeline__card">
+              <span class="about-timeline__period">Junior Year &amp; Beyond</span>
+              <h4>Pushing Boundaries</h4>
+              <p>I expanded into printmaking, mixed media, acrylic oil painting, and even
+                <a href="#gallery" class="about-link"
+                  onclick="filterGalleryByCategory('digital'); return false;">AI-assisted digital art</a>
+                through my seminar research. Continued Scholastic recognition, exploring architectural design, and
+                building this very portfolio website are all part of my ongoing creative evolution.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </section>
 
   <!-- ===== GALLERY ===== -->
@@ -139,13 +245,23 @@
             <span class="lightbox__meta-value" id="lightbox-size"></span>
           </div>
         </div>
-        <button class="lightbox__back-btn" id="lightbox-back">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-            stroke-width="2.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
-          Back to Gallery
-        </button>
+        <div class="lightbox__actions">
+          <button class="lightbox__back-btn" id="lightbox-back">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Back to Gallery
+          </button>
+          <button class="lightbox__fullres-btn" id="lightbox-fullres" aria-label="View full resolution">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+              stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+            Full Resolution
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -157,6 +273,13 @@
         <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
       </svg>
       <span class="floating-btn__text">Go to Top</span>
+    </a>
+    <a href="#about" class="floating-btn" id="go-to-about" aria-label="Go to About">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+      </svg>
+      <span class="floating-btn__text">About Me</span>
     </a>
     <a href="#gallery" class="floating-btn" id="back-to-gallery" aria-label="Go to Gallery">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
