@@ -344,6 +344,34 @@ const artworks = [
     description:
       'A captivating ink on paper print depicting a witch, created with intricate detail. This artwork received an Honorable Mention in the 2024 NYC Scholastic Art & Writing Awards.',
   },
+  {
+    id: 34,
+    title: 'Man and Mountain',
+    artist: 'Oliver Tong',
+    category: 'painting',
+    medium: 'Oil Painting',
+    year: '2026',
+    size: '24 x 18',
+    image: 'images/Man_and_mountain.jpeg',
+    description:
+      'An oil painting of a weary man seated before a range of jagged mountains, with a vast continuous mountain stretching across the distant horizon. ' +
+      'He leans forward with his head resting on clasped hands, his eyes gazing ahead and slightly upward in quiet contemplation. ' +
+      'Rich brushstrokes and layered textures accentuate the deep wrinkles on his face and the harsh, rugged atmosphere of the landscape.',
+  },
+  {
+    id: 35,
+    title: 'Sea Shell',
+    artist: 'Oliver Tong',
+    category: 'drawing',
+    medium: 'Charcoal on Paper',
+    year: '2026',
+    size: '18 x 24',
+    image: 'images/sea_shell.jpeg',
+    description:
+      'A charcoal still life of two seashells, a rough rock, and a slender branch arranged on draped cloth. ' +
+      'Beside them sits a small wooden box marked with a silver anchor, softly catching the light. ' +
+      'Rich shading and contrast emphasize the textures of shell, wood, stone, fabric, and metal.',
+  },
 ];
 
 // ---------- DOM References ----------
