@@ -629,7 +629,7 @@ const earlyArtworks = [
   },
   {
     id: 122,
-    title: 'humming bird',
+    title: 'Humming bird',
     artist: 'Oliver Tong',
     category: 'animals',
     medium: 'Kindergarten Drawing',
@@ -689,7 +689,7 @@ const earlyArtworks = [
   },
   {
     id: 127,
-    title: 'Flower in shoe',
+    title: 'Flowers in shoe',
     artist: 'Oliver Tong',
     category: 'nature',
     medium: 'Kindergarten Drawing',
@@ -701,7 +701,7 @@ const earlyArtworks = [
   },
   {
     id: 128,
-    title: 'Flower in glass',
+    title: 'Flowers in glass',
     artist: 'Oliver Tong',
     category: 'nature',
     medium: 'Kindergarten Drawing',
@@ -709,11 +709,11 @@ const earlyArtworks = [
     size: '14 x 11',
     image: 'images_kindergarten_elementary/Flower_in_glass.jpg',
     description:
-      'An early floral drawing focused on the delicate contrast between a flower and its glass vessel.',
+      'An early floral drawing focused on the delicate contrast between a flowers and their glass vessel.',
   },
   {
     id: 129,
-    title: 'Flower in basket',
+    title: 'Flowers in basket',
     artist: 'Oliver Tong',
     category: 'nature',
     medium: 'Kindergarten Drawing',
@@ -721,11 +721,11 @@ const earlyArtworks = [
     size: '14 x 11',
     image: 'images_kindergarten_elementary/Flower_in_basket.jpg',
     description:
-      'A charming early still life of a flower arranged in a basket, with a warm, homespun feel.',
+      'A charming early still life of flowers arranged in a basket, with a warm, homespun feel.',
   },
   {
     id: 130,
-    title: 'Flower in pot',
+    title: 'Flowers in pot',
     artist: 'Oliver Tong',
     category: 'nature',
     medium: 'Kindergarten Drawing',
@@ -733,11 +733,11 @@ const earlyArtworks = [
     size: '14 x 11',
     image: 'images_kindergarten_elementary/Flower_in_pot.jpg',
     description:
-      'A joyful early sketch of a potted flower, combining botanical observation with bright youthful energy.',
+      'A joyful early sketch of a potted flowers, combining botanical observation with bright youthful energy.',
   },
   {
     id: 131,
-    title: 'Flower in jar',
+    title: 'Flowers in jar',
     artist: 'Oliver Tong',
     category: 'nature',
     medium: 'Kindergarten Drawing',
@@ -745,7 +745,7 @@ const earlyArtworks = [
     size: '11 x 14',
     image: 'images_kindergarten_elementary/Flower_in_jar.jpg',
     description:
-      'An early study of a flower in a jar, highlighting simple beauty and the experimental spirit of childhood art.',
+      'An early study of flowers in a jar, highlighting simple beauty and the experimental spirit of childhood art.',
   },
 ];
 
