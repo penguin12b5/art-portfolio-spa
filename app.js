@@ -374,9 +374,386 @@ const artworks = [
   },
 ];
 
+const earlyArtworks = [
+  {
+    id: 101,
+    title: 'Little girl',
+    artist: 'Oliver Tong',
+    category: 'portraits',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Little_girl.jpg',
+    description:
+      'A playful early childhood drawing capturing a young girl in a moment of exploration and color.',
+  },
+  {
+    id: 102,
+    title: 'Girl and flower',
+    artist: 'Oliver Tong',
+    category: 'portraits',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Girl_and_flower.jpg',
+    description:
+      'A cheerful early drawing showing a girl with a flower, celebrating innocence and the joy of simple details.',
+  },
+  {
+    id: 103,
+    title: 'Girl portrait',
+    artist: 'Oliver Tong',
+    category: 'portraits',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Girl_portrait.jpg',
+    description:
+      'A portrait study from elementary school highlighting early curiosity about faces, expression, and character.',
+  },
+  {
+    id: 104,
+    title: "Girl's hair",
+    artist: 'Oliver Tong',
+    category: 'portraits',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Girl_s_hair.jpg',
+    description:
+      'An expressive early drawing focusing on hair detail and the playful style of a young artist.',
+  },
+  {
+    id: 105,
+    title: 'Woman',
+    artist: 'Oliver Tong',
+    category: 'portraits',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Woman.jpg',
+    description:
+      'A simple early portrait of a woman that demonstrates an early interest in human subjects and storytelling.',
+  },
+  {
+    id: 106,
+    title: 'Singing chorus',
+    artist: 'Oliver Tong',
+    category: 'people-scenes',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '11 x 14',
+    image: 'images_kindergarten_elementary/Singing_chorus.jpg',
+    description:
+      'An animated early sketch capturing a chorus of singers filled with movement and joyful energy.',
+  },
+  {
+    id: 107,
+    title: "Happy mother's day",
+    artist: 'Oliver Tong',
+    category: 'people-scenes',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Happy_mother_s_day.jpg',
+    description:
+      'A heartfelt early celebration drawing made for Mother’s Day, full of warmth and youthful sincerity.',
+  },
+  {
+    id: 108,
+    title: 'Happy new year 2020',
+    artist: 'Oliver Tong',
+    category: 'people-scenes',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Happy_new_year_2020.jpg',
+    description:
+      'A festive early classroom drawing welcoming the new year with cheerful lettering and celebration.',
+  },
+  {
+    id: 109,
+    title: 'Fountain',
+    artist: 'Oliver Tong',
+    category: 'people-scenes',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Fountain.jpg',
+    description:
+      'An imaginative early landscape drawing featuring a fountain and the storytelling charm of childhood scenes.',
+  },
+  {
+    id: 110,
+    title: 'Watchtower',
+    artist: 'Oliver Tong',
+    category: 'people-scenes',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Watchtower.jpg',
+    description:
+      'A dramatic early sketch of a watchtower, showing big ideas and early architectural curiosity.',
+  },
+  {
+    id: 111,
+    title: 'Mountain and lake',
+    artist: 'Oliver Tong',
+    category: 'people-scenes',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Mountain_and_lake.jpg',
+    description:
+      'A scenic early drawing combining mountains and water with lively composition and nostalgic charm.',
+  },
+  {
+    id: 112,
+    title: 'Mountain and waterfall',
+    artist: 'Oliver Tong',
+    category: 'people-scenes',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Mountain_and_waterfall.jpg',
+    description:
+      'An adventurous early study of landscape with cascading water and bold natural forms.',
+  },
+  {
+    id: 113,
+    title: 'Door and bike',
+    artist: 'Oliver Tong',
+    category: 'people-scenes',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Door_and_bike.jpg',
+    description:
+      'A charming early everyday scene showing a doorway, bicycle, and a playful sense of place.',
+  },
+  {
+    id: 114,
+    title: 'City',
+    artist: 'Oliver Tong',
+    category: 'people-scenes',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '11 x 14',
+    image: 'images_kindergarten_elementary/City.jpg',
+    description:
+      'An early townscape filled with buildings and lively street energy from a young artist’s point of view.',
+  },
+  {
+    id: 115,
+    title: 'Horse',
+    artist: 'Oliver Tong',
+    category: 'animals',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '11 x 14',
+    image: 'images_kindergarten_elementary/Horse.jpg',
+    description:
+      'A bold early animal drawing of a horse, celebrating movement, form, and imagination.',
+  },
+  {
+    id: 116,
+    title: 'Puppy',
+    artist: 'Oliver Tong',
+    category: 'animals',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Puppy.jpg',
+    description:
+      'A sweet early sketch of a puppy with playful proportions and expressive charm.',
+  },
+  {
+    id: 117,
+    title: 'Parrot',
+    artist: 'Oliver Tong',
+    category: 'animals',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '11 x 14',
+    image: 'images_kindergarten_elementary/Parrot.jpg',
+    description:
+      'A colorful early animal study of a parrot, capturing bright feathers and lively personality.',
+  },
+  {
+    id: 118,
+    title: 'Cat',
+    artist: 'Oliver Tong',
+    category: 'animals',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/cat.jpg',
+    description:
+      'A charming early pet portrait of a cat, reflecting a young artist’s love for animals and simple forms.',
+  },
+  {
+    id: 119,
+    title: 'Fox',
+    artist: 'Oliver Tong',
+    category: 'animals',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '11 x 14',
+    image: 'images_kindergarten_elementary/Fox.jpg',
+    description:
+      'An early animal illustration of a fox, using confident line work and expressive detail.',
+  },
+  {
+    id: 120,
+    title: 'Flying eagle',
+    artist: 'Oliver Tong',
+    category: 'animals',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Flying_eagle.jpg',
+    description:
+      'A dynamic early sketch of an eagle in flight, showing a young artist’s fascination with powerful animals.',
+  },
+  {
+    id: 121,
+    title: 'American bald eagle',
+    artist: 'Oliver Tong',
+    category: 'animals',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '11 x 14',
+    image: 'images_kindergarten_elementary/American_bald_eagle.jpg',
+    description:
+      'A patriotic early drawing of an American bald eagle, focused on bold form and confident composition.',
+  },
+  {
+    id: 122,
+    title: 'humming bird',
+    artist: 'Oliver Tong',
+    category: 'animals',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/humming_bird.jpg',
+    description:
+      'A delicate early drawing of a hummingbird capturing small details and playful movement.',
+  },
+  {
+    id: 123,
+    title: 'Butterfly and cat',
+    artist: 'Oliver Tong',
+    category: 'animals',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Butterfly_and_cat.jpg',
+    description:
+      'A whimsical early composition featuring a cat and butterfly, mixing animal charm with storytelling.',
+  },
+  {
+    id: 124,
+    title: 'Bird and eggs',
+    artist: 'Oliver Tong',
+    category: 'animals',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '11 x 14',
+    image: 'images_kindergarten_elementary/Bird_and_eggs.jpg',
+    description:
+      'A gentle early nature study of a bird and its eggs, demonstrating careful observation and narrative detail.',
+  },
+  {
+    id: 125,
+    title: 'Nest of eggs',
+    artist: 'Oliver Tong',
+    category: 'nature',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '11 x 14',
+    image: 'images_kindergarten_elementary/Nest_of_eggs.jpg',
+    description:
+      'A thoughtful early drawing of a nest and eggs, celebrating nature and the comfort of quiet scenes.',
+  },
+  {
+    id: 126,
+    title: 'Pumpkins',
+    artist: 'Oliver Tong',
+    category: 'nature',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '11 x 14',
+    image: 'images_kindergarten_elementary/Pumpkins.jpg',
+    description:
+      'A seasonal early study of pumpkins, rich with texture and autumnal color exploration.',
+  },
+  {
+    id: 127,
+    title: 'Flower in shoe',
+    artist: 'Oliver Tong',
+    category: 'nature',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Shoe_and_flower.jpg',
+    description:
+      'A creative early still life combining shoes and flowers, showing curiosity about everyday objects.',
+  },
+  {
+    id: 128,
+    title: 'Flower in glass',
+    artist: 'Oliver Tong',
+    category: 'nature',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Flower_in_glass.jpg',
+    description:
+      'An early floral drawing focused on the delicate contrast between a flower and its glass vessel.',
+  },
+  {
+    id: 129,
+    title: 'Flower in basket',
+    artist: 'Oliver Tong',
+    category: 'nature',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Flower_in_basket.jpg',
+    description:
+      'A charming early still life of a flower arranged in a basket, with a warm, homespun feel.',
+  },
+  {
+    id: 130,
+    title: 'Flower in pot',
+    artist: 'Oliver Tong',
+    category: 'nature',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '14 x 11',
+    image: 'images_kindergarten_elementary/Flower_in_pot.jpg',
+    description:
+      'A joyful early sketch of a potted flower, combining botanical observation with bright youthful energy.',
+  },
+  {
+    id: 131,
+    title: 'Flower in jar',
+    artist: 'Oliver Tong',
+    category: 'nature',
+    medium: 'Kindergarten Drawing',
+    year: 'Early Years',
+    size: '11 x 14',
+    image: 'images_kindergarten_elementary/Flower_in_jar.jpg',
+    description:
+      'An early study of a flower in a jar, highlighting simple beauty and the experimental spirit of childhood art.',
+  },
+];
+
 // ---------- DOM References ----------
 const galleryGrid = document.getElementById('gallery-grid');
 const filterBar = document.getElementById('filter-bar');
+const earlyWorksGrid = document.getElementById('early-works-grid');
+const earlyFilterBar = document.getElementById('early-filter-bar');
 const lightbox = document.getElementById('lightbox');
 const lightboxOverlay = document.getElementById('lightbox-overlay');
 const lightboxClose = document.getElementById('lightbox-close');
@@ -394,6 +771,8 @@ const lightboxSize = document.getElementById('lightbox-size');
 let currentFilter = 'all';
 let currentLightboxIndex = -1;
 let filteredArtworks = [...artworks];
+let filteredEarlyArtworks = [...earlyArtworks];
+let currentArtworkList = [...artworks];
 
 // ---------- Analytics helper (safe wrapper around gtag) ----------
 function sendGtagEvent(eventName, params = {}) {
@@ -409,14 +788,16 @@ function sendGtagEvent(eventName, params = {}) {
 // ---------- Render Gallery Cards ----------
 function renderGallery(filter = 'all') {
   currentFilter = filter;
-  filteredArtworks =
+  const galleryList =
     filter === 'all'
       ? [...artworks]
       : artworks.filter((a) => a.category === filter);
+  filteredArtworks = galleryList;
+  currentArtworkList = galleryList;
 
   galleryGrid.innerHTML = '';
 
-  filteredArtworks.forEach((artwork, index) => {
+  galleryList.forEach((artwork, index) => {
     const card = document.createElement('div');
     card.className = 'artwork-card';
     card.dataset.index = index;
@@ -435,7 +816,7 @@ function renderGallery(filter = 'all') {
       </div>
     `;
     card.addEventListener('click', () => {
-      openLightbox(index);
+      openLightbox(index, galleryList);
       sendGtagEvent('artwork_open', {
         artwork_id: artwork.id,
         artwork_title: artwork.title,
@@ -446,6 +827,51 @@ function renderGallery(filter = 'all') {
   });
 
   // Observe new cards for reveal animation
+  observeCards();
+}
+
+function renderEarlyWorks(filter = 'all') {
+  currentFilter = filter;
+  const earlyList =
+    filter === 'all'
+      ? [...earlyArtworks]
+      : earlyArtworks.filter((a) => a.category === filter);
+  filteredArtworks = earlyList;
+  filteredEarlyArtworks = earlyList;
+  currentArtworkList = earlyList;
+
+  earlyWorksGrid.innerHTML = '';
+
+  earlyList.forEach((artwork, index) => {
+    const card = document.createElement('div');
+    card.className = 'artwork-card';
+    card.dataset.index = index;
+    card.innerHTML = `
+      <div class="artwork-card__image-wrap">
+        <img src="${artwork.image}" alt="${artwork.title} by ${artwork.artist}" loading="lazy" />
+      </div>
+      <div class="artwork-card__info">
+        <span class="artwork-card__category">${artwork.category}</span>
+        <h3 class="artwork-card__title">${artwork.title}</h3>
+      </div>
+      <div class="artwork-card__view-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+        </svg>
+      </div>
+    `;
+    card.addEventListener('click', () => {
+      openLightbox(index, earlyList);
+      sendGtagEvent('artwork_open', {
+        artwork_id: artwork.id,
+        artwork_title: artwork.title,
+        category: artwork.category,
+        collection: 'kindergarten-elementary',
+      });
+    });
+    earlyWorksGrid.appendChild(card);
+  });
+
   observeCards();
 }
 
@@ -481,6 +907,17 @@ filterBar.addEventListener('click', (e) => {
 
   renderGallery(btn.dataset.filter);
   sendGtagEvent('filter_select', { filter: btn.dataset.filter });
+});
+
+earlyFilterBar.addEventListener('click', (e) => {
+  const btn = e.target.closest('.filter-btn');
+  if (!btn) return;
+
+  earlyFilterBar.querySelectorAll('.filter-btn').forEach((b) => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  renderEarlyWorks(btn.dataset.filter);
+  sendGtagEvent('early_filter_select', { filter: btn.dataset.filter });
 });
 
 // ---------- Open Artwork By Title (from About links) ----------
@@ -541,9 +978,10 @@ function resetZoom() {
   }
 }
 
-function openLightbox(index) {
+function openLightbox(index, artworkList = currentArtworkList) {
   currentLightboxIndex = index;
-  const artwork = filteredArtworks[index];
+  currentArtworkList = artworkList;
+  const artwork = artworkList[index];
 
   lightboxImage.src = artwork.image;
   lightboxImage.alt = `${artwork.title} by ${artwork.artist}`;
@@ -566,9 +1004,9 @@ function closeLightbox() {
 }
 
 function navigateLightbox(direction) {
-  const total = filteredArtworks.length;
+  const total = currentArtworkList.length;
   currentLightboxIndex = (currentLightboxIndex + direction + total) % total;
-  const artwork = filteredArtworks[currentLightboxIndex];
+  const artwork = currentArtworkList[currentLightboxIndex];
 
   lightboxImage.src = artwork.image;
   lightboxImage.alt = `${artwork.title} by ${artwork.artist}`;
@@ -738,4 +1176,5 @@ function observeAboutSection() {
 
 // ---------- Initial Render ----------
 renderGallery();
+renderEarlyWorks();
 observeAboutSection();

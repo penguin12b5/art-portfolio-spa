@@ -497,6 +497,15 @@ body::after {
   color: var(--text-primary);
 }
 
+.gallery-legend {
+  max-width: 760px;
+  margin: 0 auto var(--space-lg);
+  color: var(--text-secondary);
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
 /* ---------- Filter Bar ---------- */
 .filter-bar {
   display: flex;
