@@ -1,6 +1,6 @@
 # Art Portfolio Single Page Web Application
 
-A single-page web application showcased as a creative portfolio of artworks from middle and high school years (2022-2026). This project features a curated collection of paintings, drawings, digital art, printmaking, and architectural designs.
+A single-page web application showcased as a creative portfolio of artworks from middle and high school years (2022-2026). This project features a curated collection of paintings, drawings, digital art, printmaking, and architectural designs. Early artworks from kindergarten and elementary school were also added to show the complete journey.
 
 Hosted by github page: https://penguin12b5.github.io/art-portfolio-spa
 
