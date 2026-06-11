@@ -424,18 +424,6 @@ const earlyArtworks = [
       'An expressive early drawing focusing on hair detail and the playful style of a young artist.',
   },
   {
-    id: 105,
-    title: 'Woman',
-    artist: 'Oliver Tong',
-    category: 'portraits',
-    medium: 'Kindergarten Drawing',
-    year: 'Early Years',
-    size: '14 x 11',
-    image: 'images_kindergarten_elementary/Woman.jpg',
-    description:
-      'A simple early portrait of a woman that demonstrates an early interest in human subjects and storytelling.',
-  },
-  {
     id: 106,
     title: 'Singing chorus',
     artist: 'Oliver Tong',
