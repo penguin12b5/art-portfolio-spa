@@ -979,6 +979,10 @@ function openLightbox(index, artworkList = currentArtworkList) {
   lightboxCategory.textContent = artwork.category;
   lightboxTitle.textContent = artwork.title;
   lightboxDescription.textContent = artwork.description;
+  if (lightboxDescription) {
+    lightboxDescription.scrollTop = 0;
+    lightboxDescription.scrollLeft = 0;
+  }
   lightboxMedium.textContent = artwork.medium;
   lightboxYear.textContent = artwork.year;
   lightboxSize.textContent = artwork.size;
@@ -1004,6 +1008,10 @@ function navigateLightbox(direction) {
   lightboxCategory.textContent = artwork.category;
   lightboxTitle.textContent = artwork.title;
   lightboxDescription.textContent = artwork.description;
+  if (lightboxDescription) {
+    lightboxDescription.scrollTop = 0;
+    lightboxDescription.scrollLeft = 0;
+  }
   lightboxMedium.textContent = artwork.medium;
   lightboxYear.textContent = artwork.year;
   lightboxSize.textContent = artwork.size;
