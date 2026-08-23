@@ -14,10 +14,9 @@ const artworks = [
     size: '16 x 14',
     image: 'images/smiling_worker.jpeg',
     description:
-      'A candid portrait capturing the genuine joy and dignity of everyday work. ' +
-      'This piece from my sophomore year explores human connection and the stories behind every smile, ' +
-      'representing my growing interest in portrait-style painting. ' +
-      'This artwork received a Gold Key in the 2025 NYC Scholastic Art & Writing Awards.',
+      'At home, I regularly saw a UPS worker driving along our street and delivering packages to the surrounding homes. Whether it was raining or sunny, windy or snowing, he always seemed to greet each delivery with a smile. I noticed the lines around his eyes when he smiled. They made me wonder how many houses he had visited over the years and how many people he had met along the way.\n\n' +
+      'I created this acrylic painting to capture his warm smile and the lines around his eyes. I wanted those lines to show the years of work and experience behind his smile.\n\n' +
+      'Through this painting, I want viewers to appreciate the dignity and quiet joy found in everyday work. His smile reminds me that ordinary moments can leave a lasting impression on the people around us.',
   },
   {
     id: 2,
@@ -29,9 +28,9 @@ const artworks = [
     size: '22 x 16',
     image: 'images/multi_tasker.jpeg',
     description:
-      'A detailed pencil drawing exploring the complexity of modern life and the art of juggling multiple responsibilities. ' +
-      'This piece demonstrates my technical skill in shading and composition developed during my sophomore year. ' +
-      'This artwork received a Gold Key in the 2025 NYC Scholastic Art & Writing Awards.',
+      'I created this pencil drawing to show what it feels like to have too many things competing for your attention. The figure has multiple hands, each occupied with a different task, reflecting the many things we try to handle at the same time.\n\n' +
+      'I varied the finger positions and gestures so that the hands seem to be moving in different directions, creating a feeling of constant activity. Together, the gestures make the drawing feel crowded and restless. The heavy wrinkles across the forehead suggest the stress of trying to keep up with everything.\n\n' +
+      'I think the figure reflects something many of us experience: trying to keep up with work, school, relationships, and everyday responsibilities while feeling that there is never enough time. I wanted the drawing to capture that feeling of being pulled in several directions.',
   },
   {
     id: 3,
@@ -43,9 +42,9 @@ const artworks = [
     size: '12 x 10',
     image: 'images/crying_woman.jpeg',
     description:
-      'An emotionally powerful piece combining various materials and techniques to express raw human emotion and vulnerability. ' +
-      'This work explores the depth of sorrow and the strength found in allowing oneself to feel deeply. ' +
-      'This artwork received an Honorable Mention in the 2025 NYC Scholastic Art & Writing Awards and High Merit in Celebrating Arts 2025 Summer.',
+      'This mixed-media artwork was inspired by a documentary about water shortages and prolonged drought in several parts of Africa and how they affect the land, crops, and people who depend on them. As the earth becomes dry and cracked, crops fail and harvests disappear, making it difficult for families to grow enough food.\n\n' +
+      'I used tissue stained with yellow tones to represent the dry, cracked earth. Its rough texture makes the surface look dry and fragile, like land that has been dried out over time. I used acrylic paint to portray a Black woman with tears in her eyes, representing the grief of living through a crisis that affects something as basic as access to water.\n\n' +
+      'Through this work, I want viewers to think about what it means for people to live without reliable access to water. I also hope the painting encourages viewers to learn more about the water crisis and the people affected by it.',
   },
   {
     id: 4,
@@ -57,9 +56,9 @@ const artworks = [
     size: '20 x 16',
     image: 'images/molding_life_from_clay.jpeg',
     description:
-      'A vibrant acrylic painting that captures the act of creation itself. ' +
-      'This piece explores the transformative power of art, depicting hands shaping raw material into something meaningful. ' +
-      'This artwork received a Silver Key in the 2026 NYC Scholastic Art & Writing Awards.',
+      'This acrylic painting depicts a sculptor carefully shaping a small, delicate jar from clay. Two hands, their fingers covered in clay, hold the unfinished piece for close inspection. In the background, the rotating machinery adds movement to the scene and contrasts with the slow, careful movements of the hands.\n\n' +
+      'I wanted to show how a simple piece of clay can gradually take shape through the artist’s hands. The rough, earthy surface of the clay contrasts with the delicate form of the jar, showing how much can change through patience and careful work.\n\n' +
+      'I want viewers to appreciate the skill and patience involved in shaping something by hand. I also want them to notice how a simple material can become something useful and beautiful through the creative process.',
   },
   {
     id: 5,
@@ -71,9 +70,9 @@ const artworks = [
     size: '24 x 18',
     image: 'images/sightless_wisdom_endures.jpeg',
     description:
-      'A profound acrylic oil painting that delves into the concept of inner vision and resilience. ' +
-      'The piece portrays wisdom that transcends physical sight, captured through rich textures and emotive brushwork. ' +
-      'This artwork received an Honorable Mention in the 2026 NYC Scholastic Art & Writing Awards.',
+      'This acrylic-oil painting portrays a blind man with a long beard sitting in quiet contemplation. I used dark tones in his eyes, beard, and hair to create contrast with his skin and emphasize the quiet mood of the portrait. His gray clothing blends into the dark gray background, giving the painting a subdued and reflective feeling.\n\n' +
+      'His calm expression and composed posture made me think about the different ways people experience and understand the world. Although sight is absent, there is still a strong sense of awareness and presence in his expression. I wanted to explore the idea that seeing is not limited to what we perceive with our eyes. Memory, experience, and emotion can also shape how we understand the world.\n\n' +
+      'Through this painting, I hope viewers will think about the different ways we experience the world beyond physical sight.',
   },
   {
     id: 6,
@@ -98,9 +97,9 @@ const artworks = [
     size: '16 x 12',
     image: 'images/longing_for_the_ocean.jpeg',
     description:
-      'A vivid colored pencil drawing that captures a deep yearning for the open sea. ' +
-      'Through intricate layering of colors, this piece evokes the sensory experience of the ocean breeze and waves. ' +
-      'This artwork received an Honorable Mention in the 2024 NYC Scholastic Art & Writing Awards.',
+      'In this colored pencil drawing, I depict a young woman with long flaxen hair gazing at a framed image of blue ocean waves and colorful seashells. I designed her braids to echo the movement of the waves, with the strands weaving together like ripples across the sea. The connection between her hair and the ocean suggests her desire to be somewhere peaceful and close to the sea.\n\n' +
+      'I began this drawing as a way to challenge myself to capture the texture, movement, and highlights of hair with colored pencils. As I worked on the braids, I noticed that their flowing shapes reminded me of ocean waves, and the idea of connecting the two became part of the drawing.\n\n' +
+      'Through this piece, I hope viewers notice the relationship between the braids and the waves and sense the woman’s longing for the sea.',
   },
   {
     id: 8,
@@ -163,8 +162,9 @@ const artworks = [
     size: '16 x 12',
     image: 'images/village_ramen.jpeg',
     description:
-      'A warm and inviting acrylic oil painting of a traditional village ramen shop. ' +
-      'The piece captures the cozy atmosphere and glowing lights of a local eatery, reflecting on themes of community and comfort.',
+      'In this acrylic-oil painting, I depict a small ramen shop in a quiet village. The green doors, potted plants, and trees contrast with the clear blue sky, making the shop stand out against the surrounding landscape. I was drawn to the combination of these colors and the simple setting of the shop.\n\n' +
+      'Although the building is modest and slightly weathered, I liked the character that came from its age and surroundings. What caught my attention was the greenery, open sky, and welcoming feeling of the place. I wanted to capture the feeling of a small local shop that has become part of its surroundings.\n\n' +
+      'Through this painting, I hope viewers can sense the peacefulness of the village and imagine what it might be like to spend an ordinary day there. To me, the shop shows how a simple place can become memorable because of its surroundings and the feeling it creates.',
   },
   {
     id: 13,
@@ -241,8 +241,9 @@ const artworks = [
     size: '24 x 18',
     image: 'images/crimson_cramming.jpeg',
     description:
-      'A vivid and detailed colored pencil drawing depicting the intensity of late-night study sessions. ' +
-      'The use of crimson hues conveys the pressure and urgency of academic dedication.',
+      'This colored pencil artwork shows a high school student studying late at night, surrounded by practice sheets and stacks of books. I used deep crimson tones on his face, neck, and hands to emphasize his exhaustion and tension. In the background, Math and English practice sheets and a thick stack of brightly colored books fill the space around him, making the amount of work feel almost impossible to ignore.\n\n' +
+      'The artwork is inspired by my own experience during my junior year of high school. I wanted to capture the exhaustion of studying late into the night while still feeling that I had to keep going because there was always another assignment or exam to prepare for.\n\n' +
+      'Through this piece, I hope viewers can relate to the pressure of trying to do well in school while also dealing with exhaustion and the feeling that there is never enough time.',
   },
   {
     id: 19,
@@ -354,9 +355,9 @@ const artworks = [
     size: '24 x 18',
     image: 'images/Man_and_mountain.jpeg',
     description:
-      'An oil painting of a weary man seated before a range of jagged mountains, with a vast continuous mountain stretching across the distant horizon. ' +
-      'He leans forward with his head resting on clasped hands, his eyes gazing ahead and slightly upward in quiet contemplation. ' +
-      'Rich brushstrokes and layered textures accentuate the deep wrinkles on his face and the harsh, rugged atmosphere of the landscape.',
+      'In this oil painting, I depict a weary man seated before a range of jagged mountains, with an expansive chain of peaks stretching across the distant horizon. He leans forward with his head resting on his clasped hands, his eyes gazing slightly upward. His posture suggests exhaustion to me, but also a moment of stopping to reflect.\n\n' +
+      'I used rich brushstrokes and layered textures to emphasize the wrinkles on his face and echo the rough, broken surfaces of the mountains. The man and the mountains are both marked by time and hardship, creating a connection between the figure and the landscape.\n\n' +
+      'I was interested in the idea that difficult experiences can shape us over time, just as wind and weather shape a mountain. Through this painting, I wanted to show the man not as separate from the landscape, but as someone whose experience is reflected in it. I hope viewers can recognize something familiar in his expression and think about their own moments of exhaustion, reflection, and perseverance.',
   },
   {
     id: 35,
@@ -368,9 +369,9 @@ const artworks = [
     size: '18 x 24',
     image: 'images/sea_shell.jpeg',
     description:
-      'A charcoal still life of two seashells, a rough rock, and a slender branch arranged on draped cloth. ' +
-      'Beside them sits a small wooden box marked with a silver anchor, softly catching the light. ' +
-      'Rich shading and contrast emphasize the textures of shell, wood, stone, fabric, and metal.',
+      'In this charcoal-on-paper drawing, I depict a cloth arranged with objects inspired by the sea: a small wooden box marked with a silver anchor, two dark rocks beside it, and two pale seashells in the foreground. I created this work to explore how charcoal could capture the shapes, textures, and subtle contrasts of still-life objects.\n\n' +
+      'The folds and wrinkles of the cloth introduced a sense of movement and reminded me of waves. The weathered wooden box and worn silver anchor made me think of age and memories connected to the sea, while the dark rocks and seashells strengthen that connection.\n\n' +
+      'Together, these objects remind me of an earlier time when sailing was a way of life. Through this drawing, I wanted to capture not only the textures of the objects but also a quiet sense of history and nostalgia.',
   },
 ];
 
@@ -796,6 +797,7 @@ function renderGallery(filter = 'all') {
       <div class="artwork-card__info">
         <span class="artwork-card__category">${artwork.category}</span>
         <h3 class="artwork-card__title">${artwork.title}</h3>
+        <p class="artwork-card__description">${artwork.description}</p>
       </div>
       <div class="artwork-card__view-icon">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -841,6 +843,7 @@ function renderEarlyWorks(filter = 'all') {
       <div class="artwork-card__info">
         <span class="artwork-card__category">${artwork.category}</span>
         <h3 class="artwork-card__title">${artwork.title}</h3>
+        <p class="artwork-card__description">${artwork.description}</p>
       </div>
       <div class="artwork-card__view-icon">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
