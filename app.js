@@ -63,7 +63,7 @@ const artworks = [
   },
   {
     id: 5,
-    title: 'Sightless Wisdom Endures',
+    title: 'Inner Vision',
     artist: 'Oliver Tong',
     category: 'painting',
     medium: 'Acrylic Oil Painting',
