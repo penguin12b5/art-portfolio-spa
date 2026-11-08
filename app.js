@@ -366,12 +366,24 @@ const artworks = [
     category: 'drawing',
     medium: 'Charcoal on Paper',
     year: '2026',
-    size: '18 x 24',
+    size: '16 x 22',
     image: 'images/sea_shell.jpeg',
     description:
       'In this charcoal-on-paper drawing, I depict a cloth arranged with objects inspired by the sea: a small wooden box marked with a silver anchor, two dark rocks beside it, and two pale seashells in the foreground. I created this work to explore how charcoal could capture the shapes, textures, and subtle contrasts of still-life objects.\n\n' +
       'The folds and wrinkles of the cloth introduced a sense of movement and reminded me of waves. The weathered wooden box and worn silver anchor made me think of age and memories connected to the sea, while the dark rocks and seashells strengthen that connection.\n\n' +
       'Together, these objects remind me of an earlier time when sailing was a way of life. Through this drawing, I wanted to capture not only the textures of the objects but also a quiet sense of history and nostalgia.',
+  },
+  {
+    id: 36,
+    title: 'Old Man Digital',
+    artist: 'Oliver Tong',
+    category: 'digital',
+    medium: 'Digital Art',
+    year: '2026',
+    size: 'Digital',
+    image: 'images/Old_man_digital_20261107.png',
+    description:
+      'A digital portrait created with a digital pen, capturing the quiet wisdom and character of an older man through expressive linework and subtle shading.',
   },
 ];
 
